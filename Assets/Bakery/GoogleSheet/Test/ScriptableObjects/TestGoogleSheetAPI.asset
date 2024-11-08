@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 09d8a4719bd72467db6ba51fc756103c, type: 3}
-  m_Name: GoogleSheetAPI
+  m_Name: TestGoogleSheetAPI
   m_EditorClassIdentifier: 
   GoolgleSheetID: 1T4BBZaC5s88hsD4pHsULlpqG21MLcKNC_a1T15r06yg

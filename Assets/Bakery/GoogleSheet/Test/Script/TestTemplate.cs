@@ -1,7 +1,7 @@
 
 using UnityEngine;
 
-namespace Bakery.GoogleSheet
+namespace Bakery.GoogleSheet.Test
 {
     public class TestTemplate : ScriptableObject
     {

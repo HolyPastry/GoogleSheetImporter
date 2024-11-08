@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-namespace Bakery.GoogleSheet
+namespace Bakery.GoogleSheet.Test
 {
     [CreateAssetMenu(fileName = "TestImporter", menuName = "Bakery/GoogleSheet/TestImporter")]
     public class TestImporter : DataImporter<TestTemplate>
@@ -17,7 +17,6 @@ namespace Bakery.GoogleSheet
 
             testTemplate.Title = CapitalizeFirstLetterOnly(fields[1]);
             testTemplate.Description = fields[2];
-
 
         }
     }

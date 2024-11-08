@@ -76,8 +76,20 @@ namespace Bakery.GoogleSheet
             return field[..1].ToUpper() + field[1..].ToLower();
         }
 
-
+        protected ScriptableObject GetScriptedObjectByName<T1>(string resourceName, string path)
+        {
+            UnityEngine.Object obj = AssetDatabase.LoadAssetAtPath($"{path}/{resourceName}.asset", typeof(T1));
+            if (obj == null)
+            {
+                Debug.LogError($"object not found {resourceName} not found");
+                return null;
+            }
+            return (ScriptableObject)obj;
+        }
     }
 
+
 }
+
+
 #endif
